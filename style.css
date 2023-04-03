@@ -18,27 +18,28 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+.navbar{
+    width: 75%;
+    margin:auto;
+}
 .flex-reverse{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
 }
-.navbar{
-    background-color: rgb(229, 148, 72);
-    height: 3rem;
-    width: 75%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-    padding: 10px;
+.logo{
+    background-color: orange;
     border: 2px dashed black;
+    margin-top: 1.5rem;
+    width: 25%;
 }
-ul{
+.login{
+    text-align: right;
+}
+.ul{
     list-style-type: none;
     width: 50%;
-    border-style: none dotted none dotted;
 }
  .adv{
     background-color: blue;
