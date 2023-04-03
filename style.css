@@ -106,7 +106,7 @@ hr{
 .navbarpiè{
     background-color: aquamarine;
     width: 75%;
-    margin: auto;
+    margin: 1.8rem auto 0 auto;
     height: 3rem;
 }
 .flex1{
