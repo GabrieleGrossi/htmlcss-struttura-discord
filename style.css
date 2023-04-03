@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: lightblue;
+    height: 5rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: salmon;
+    height: 3rem;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 10px;
+    border: 2px dashed black;
+}
+ul{
+    list-style-type: none;
+    width: 75%;
+}
+ .adv{
+    background-color: blue;
+    height: 500px;
+ }
+ .jumbotrone{
+    width: 70%;
+    height: 70%;
+    background-color: pink;
+    border: 2px dashed black;
+}
