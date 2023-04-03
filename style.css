@@ -37,8 +37,8 @@ header{
 }
 ul{
     list-style-type: none;
-    width: 75%;
-
+    width: 50%;
+    border-style: none dotted none dotted;
 }
  .adv{
     background-color: blue;
