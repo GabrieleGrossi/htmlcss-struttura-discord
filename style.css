@@ -18,8 +18,14 @@ header{
     justify-content: center;
     align-items: center;
 }
+.flex-reverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 .navbar{
-    background-color: salmon;
+    background-color: rgb(229, 148, 72);
     height: 3rem;
     width: 75%;
     justify-content: space-between;
@@ -37,8 +43,27 @@ ul{
     height: 500px;
  }
  .jumbotrone{
-    width: 70%;
-    height: 70%;
-    background-color: pink;
+    width: 60%;
+    height: 80%;
+    background-color: rgb(228, 136, 152);
     border: 2px dashed black;
+}
+.blocco{
+    height: 500px;
+}
+.contenitore-blu{
+    background-color: lightblue;
+    width: 50%;
+    height: 80%;
+    border: 2px dashed black
+}
+.contenitore-rosa{
+    background-color: pink;
+    width: 25%;
+    height: 80%;
+    border: 2px dashed black
+}
+.bloccogrigio {
+    background-color: lightgray;
+    height: 500px;
 }
